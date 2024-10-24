@@ -1,0 +1,15 @@
+.center {
+	text-align: center;
+	margin-top:300px;
+}
+
+.center input {
+	width:160px;
+	margin:2px;
+}
+
+.center label {
+	display:inline-block;
+	width:160px;
+	margin:2px;
+}

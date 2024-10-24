@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/my.css" />
+		<script type="text/javascript" src="js/my.js"></script>
+	</head>
+	<body>
+		<form method="POST" action="login" class="center" id="loginForm">
+			Welcome Login
+			<div>
+				<label for="loginUserName">User Name</label>
+				<input name="userName" id="loginUserName"/>
+			</div>
+			<div>
+				<label for="loginPassword">Password</label>
+				<input type="password" id="loginPassword"/>
+			</div>
+			<div>
+				<input type="button" value="Submit" onclick="validateLoginValues()"/>
+				<input type="reset" value="Reset"/>
+			</div>
+			
+		</form>
+	</body>
+</html>
